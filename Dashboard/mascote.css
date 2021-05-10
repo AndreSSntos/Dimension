@@ -1,0 +1,49 @@
+.button {
+    position: absolute;
+    top: 13%;
+    left: 70%;
+    width: 181px;
+    height: 47px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button a {
+    color: #000;
+    font-size: 20px;
+  
+}
+
+.conteudo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.box-mascote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 38%;
+    height: 442px;
+    width: 473px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+
+.conteudo h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+.loader {
+    margin-top: 3%;
+}
