@@ -2,7 +2,7 @@ package br.com.dimension.conexao;
 import java.sql.*;
 
 public class DimensionConexao {
-        private static final String url = "dbc:sqlserver://dimensionandre.database.windows.net:1433;database=bdDimension;user=Dimension@dimensionandre;password={your_password_here};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
+        private static final String url = "jdbc:sqlserver://dimensionandre.database.windows.net:1433;database=bdDimension;user=Dimension@dimensionandre;password={your_password_here};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
         private static final String username = "Dimension";
         private static final String password = "#Gf23084757810";
         
