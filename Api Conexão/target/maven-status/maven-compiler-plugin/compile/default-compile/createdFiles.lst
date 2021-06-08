@@ -1,6 +1,0 @@
-br\com\dimension\apiinsercao\ApiInsercao.class
-br\com\dimension\aplicacao\Dimension.class
-br\com\dimension\aplicacao\Dimension$1.class
-br\com\dimension\conexao\DimensionConexao.class
-br\com\dimension\insercao\Insercao.class
-br\com\dimension\dao\DimensionDAO.class
