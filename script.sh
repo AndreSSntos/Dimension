@@ -61,6 +61,7 @@ if [[ ! "$(sudo docker ps -aqf "name=ContainerDimensionBD")" ]]; then
     if [ \"$inst\" == \"s\" ]; then
         echo \"Iniciando a criação do ContainerDimensionBD...\"
         sleep 2
+        cd Desktop
         git clone https://github.com/AndreSntos/Dimension
         cd Dimension
         cd mysql
