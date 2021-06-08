@@ -75,6 +75,7 @@ if [[ ! "$(sudo docker ps -aqf "name=ContainerDimensionBD")" ]]; then
     fi
 else
     echo \"Container MySQL já existe.\"
+    git clone https://github.com/AndreSntos/Dimension
     CONTID=$(sudo docker ps -aqf "name=ContainerDimensionBD")
     sudo docker start ${CONTID}
 fi
